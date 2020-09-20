@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@media(max-width: 400px) {
+    img {
+        height: auto;
+        width: 100%;
+    }
+        .restaurant-form {
+        border-radius: 15px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    h3 {
+        display: none;
+    }
+    .card {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.restaurant-container-footer-area {
+    margin-top: 20px;
+}
+}
+
+@media(min-width: 401px) {
+    .restaurant-form {
+        border-radius: 15px;
+        margin-bottom: 250px;
+    }
+    .card {
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.restaurant-header-and-text {
+    margin-top: 220px;
+    padding-left: 300px;
+}
+.restaurant-card-one-review {
+    display: flex;
+    justify-content: flex-end;
+}
+.restaurant-container-footer-area {
+    margin-top: 350px;
+}
+
+}
+
+.restaurant-first-row {
+    z-index: 0;
+    background: 
+    linear-gradient(rgba(105, 105, 105, .7),
+    rgba(105, 105, 105, .7)),
+    url(restaurantbackground1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 58px;
+}
+
+.restaurant-side-image-one {
+    max-height: 700px;
+    margin-top: 150px;
+}
+
+.restaurant-review-cards {
+    max-width: 18rem;
+}
+
+.restaurant-review-middle-card {
+    min-height: 17rem;
+}
